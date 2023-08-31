@@ -6,6 +6,7 @@ const dbConnection = () => {
     dialect: "postgres",
     dialectOptions: {
       connectTimeout: 30000, // increase the connection timeout to 30 seconds
+      ssl: true 
     },
   });
 
