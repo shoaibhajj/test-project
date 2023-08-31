@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 ;
 // to build DB tables
-sequelize.sync({force: true})
+//sequelize.sync({force: true})
 //Routes
 const mountRoutes = require("./routes");
 
